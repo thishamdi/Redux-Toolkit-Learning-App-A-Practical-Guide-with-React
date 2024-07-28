@@ -1,0 +1,77 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #e2dede;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  line-height: 0;
+}
+
+.navbar-logo {
+  width: 100px;
+}
+
+.navbar.dark .navbar-logo-path {
+  fill: #fff;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-button {
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.cart-container {
+  position: relative;
+  line-height: 0;
+}
+
+.cart-quantity {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background-color: #f44336;
+  color: white;
+  font-size: 0.65rem;
+  font-weight: 500;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.session-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar.dark .session-button {
+  color: white;
+}
+
+.logout-button {
+  padding: 1px 15px;
+  border-radius: 8px;
+  background-color: #f44336;
+  color: white;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
